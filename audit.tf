@@ -1,4 +1,5 @@
-# 2. 監査アカウント用 Provider (AssumeRoleで権限切り替え)
+#
+#2. 監査アカウント用 Provider (AssumeRoleで権限切り替え)
 provider "aws" {
   alias  = "audit"
   region = var.aws_region
